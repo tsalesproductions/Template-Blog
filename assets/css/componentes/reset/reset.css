@@ -15,3 +15,6 @@ audio, img, iframe, video{
     height: auto;
     width: 100%;
 }
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+}
