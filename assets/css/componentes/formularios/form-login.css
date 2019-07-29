@@ -1,4 +1,6 @@
 .form-login{
+    background-color: #fff;
+    border-radius: 5px;
     box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.28);
     display: flex;
     flex-direction: column;
@@ -7,6 +9,8 @@
     width: 99%;
 }
 input[type="text"], input[type="email"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.31);
     margin: 8px auto;
     padding: 0.56rem 0.6rem;
     width: 100%;
