@@ -1,0 +1,19 @@
+.form-login{
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.28);
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    padding: 1rem;
+    width: 99%;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    margin: 8px auto;
+    padding: 0.56rem 0.6rem;
+    width: 100%;
+}
+@media(min-width: 48rem){
+    .form-login{
+        margin: 6rem auto;
+        width: 380px;
+    }
+}
