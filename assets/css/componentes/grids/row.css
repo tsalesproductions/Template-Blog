@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media(min-width: 48rem){
+    .row{
+        flex-direction: row;
+    }
+}
