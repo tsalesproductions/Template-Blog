@@ -1,2 +1,8 @@
 /*Reset*/
 @import url(componentes/reset/reset.css);
+/*Buttons*/
+@import url(componentes/buttons/buttons.css);
+/*Sistema de grids*/
+@import url(componentes/grids/containers.css);
+@import url(componentes/grids/row.css);
+@import url(componentes/grids/grids.css);
